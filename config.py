@@ -37,13 +37,13 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/SACHIN-X-THOMAS/SACHIN-REPO",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Bwf")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BWF_MUSIC1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/all_sanatani_bot")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/all_sanatani_bot")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -67,8 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @STRINGKINGBOT on Telegram
-STRING1 = getenv("STRING_SESSION", "BQFdL80ArQ4Iz4TQX_8Z7flYObH85uD9BGnHeEFpFqd1qZM9Df7pyLwI6mXHKJZLzbSoEoyaJxk0j-pWJRGT2aDbRY3uF_veK7p_3u-ZAOv8wlXYNU0wAW05fGHsh1nXLCtqDcdg_FXhlsgltZXWjl_P2rX5O9kYXrGToafUIQip5ucmZeknLFsbS796a6ohVdn5lA24kU_P2L4B-gAHqLSCNMHFtlhgwMw-9OkA-yAsljU6TgTP4q2H0pUAkSyqNG-MsbAfEaNXywNTmp-9uG2vln0lWVYl3BqTFESreN11TH3jU5j3-xGPPnVVgObnEt-sofqWAvKgUZJxxuLpIOn-3YXN1QAAAAFox6BnAA 
-")
+STRING1 = getenv("STRING_SESSION", "None")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
